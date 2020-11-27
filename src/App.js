@@ -3,6 +3,7 @@ import md5 from "md5";
 import './App.css';
 
 function App() {
+  
   let [characters, setCharacters] = useState([]);
   let publicKey = "cf5deb3f5cd0b8e7c3bfb5673b91e35a";
   let privateKey = "1bedafde63b34252cf1a234a3745fc4c5726c5a4";
